@@ -1,0 +1,45 @@
+body{
+      background-color:white;
+      background-image:url(images/america.jpg);
+      background-size:cover;
+      background-repeat:repeat;
+
+}
+/* Style rule for the wrapper div */
+#wrapper{
+    width: 900px;;
+    margin:0 auto;
+    /*background-color:white*/  
+
+ }
+ h1{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: 200;
+      font-size: 100px;
+      color: white;
+      margin: 0;
+      margin-top: 10%;
+      text-align: center;     
+      border: ridge 20px silver;
+      border-radius:20px;
+}
+.topnav{
+      display: flex;
+      justify-content: center;
+}
+    /* Navbar links */
+    .topnav a {
+      margin: auto;
+      display:block;
+      width: auto;
+      color: lightgray;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      
+    }
+    
+    /* Links - change color on hover */
+    .topnav a:hover {
+      color:black;
+    }
